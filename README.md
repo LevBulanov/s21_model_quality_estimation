@@ -272,4 +272,4 @@ Your code should contain the answers to all mandatory questions. Task ‘additio
 
 
 
-💡 [Tap here](https://forms.yandex.ru/cloud/646b46f7d046882ee5a0b173/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
+>Please leave feedback on the project in the [feedback form.](https://forms.yandex.ru/cloud/646b46f7d046882ee5a0b173/) 
