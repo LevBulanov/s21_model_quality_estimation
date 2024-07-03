@@ -232,7 +232,7 @@ Will detect overfitted models and regularize these. And dive more deeply with na
    2. How Grid Search, Randomized Grid Search and Bayesian optimization works?
    3. Explain the classification of feature selection methods. Explain how Pearson and Chi2 works. Explain how Lasso works. Explain what is permutation importance. Get acquainted with SHAP
 2. Introduction  - make all preprocess staff from the previous lesson
-   1. Read all data – data.csv.
+   1. Read all data.
    2. Preprocess “interest level” feature.
    3. Create features:  'Elevator', 'HardwoodFloors', 'CatsAllowed', 'DogsAllowed', 'Doorman', 'Dishwasher', 'NoFee', 'LaundryinBuilding', 'FitnessCenter', 'Pre-War', 'LaundryinUnit', 'RoofDeck', 'OutdoorSpace', 'DiningRoom', 'HighSpeedInternet', 'Balcony', 'SwimmingPool', 'LaundryInBuilding', 'NewConstruction', 'Terrace'
 3. Implement next methods:
@@ -241,10 +241,10 @@ Will detect overfitted models and regularize these. And dive more deeply with na
    3. Split data into 2 parts with parameter date_split, return train and test samples splitted by date_split param
    4. Split data into 3 parts with parameters validation_date and  test_date, return train, validation and test samples  splitted by input params
 4. Implement next cross validation methods:
-   1. K-fold, where k is input parameter, return list of train and indexes 
-   2. Grouped K-fold, where k and group_field are input parameter, return list of train and indexes 
-   3. Stratified K-fold, where k and stratify_field are input parameter, return list of train and indexes
-   4. Time series split, where k and date_field are input parameter, return list of train and indexes 
+   1. K-fold, where k is input parameter, return list of train and test indexes 
+   2. Grouped K-fold, where k and group_field are input parameter, return list of train and test indexes 
+   3. Stratified K-fold, where k and stratify_field are input parameter, return list of train and test indexes
+   4. Time series split, where k and date_field are input parameter, return list of train and test indexes 
 5. Cross-validation comparison
    1. Apply all implemented validation methods from above to our dataset.
    2. Apply the corresponding methods from sklearn.
