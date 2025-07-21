@@ -168,6 +168,7 @@ In this chapter, we will implement all the validation schemes, some hyperparamet
    2. Randomly split data into 3 parts with parameters validation_size and test_size, return train, validation and test samples.
    3. Split data into 2 parts with parameter date_split, return train and test samples split by date_split param.
    4. Split data into 3 parts with parameters validation_date and test_date, return train, validation and test samples split by input params.
+   5. Make split procedure determenistic. What does it mean?
 
 4. Implement the next cross-validation methods:
    1. K-Fold, where k is the input parameter, returns a list of train and test indices. 
@@ -176,7 +177,7 @@ In this chapter, we will implement all the validation schemes, some hyperparamet
    4. Time series split, where k and date_field are input parameters, returns list of train and test indices.
  
 5. Cross-validation comparison
-   1. Apply all the validation methods implemented above to our dataset.
+   1. Apply all the validation methods implemented above to our dataset. To apply Stratified algorithm you should preprocess target.
    2. Apply the appropriate methods from sklearn.
    3. Compare the resulting feature distributions for the training part of the dataset between sklearn and your implementation.
    4. Compare all validation schemes. Choose the best one. Explain your choice.
